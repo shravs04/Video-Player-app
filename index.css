@@ -1,0 +1,23 @@
+#card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.card{
+    width: calc(25% - 32px);
+    box-shadow: 2px 2px 4px #ccc;
+    border-radius: 6px;
+    margin: 16px;
+}
+
+.thumbnail{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.title{
+    padding: 16px;
+}
+

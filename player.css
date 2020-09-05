@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+#main-div{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(210, 213, 219);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;   
+}
+
+#video-div{
+    width: 70%;
+    height: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#player-div{
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 2px grey solid;
+}
+
+#frame{
+    width: 100%;
+    height: 420px;
+}
+
+#views-div{
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#playlist-div{
+    box-sizing: border-box;
+    width: 30%;
+    min-height: 500px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-left: 2px solid grey;
+}
+
+#desc-para{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.card{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+.thumbnail{
+    width: 100%;
+    max-height: 180px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.title{
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* 
+body{
+    margin: 0;
+}
+#main-div{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: rgb(210, 213, 219);
+}
+#video-div{
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    padding-right: 10px;
+}
+#playlist-div{
+    box-sizing: border-box;
+    width: 30%;
+    min-height: 500px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-left: 2px solid grey;
+}
+#player-div{
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 2px grey solid;
+}
+iframe{
+    width: 100%;
+    height: 420px;
+}
+#views-div{
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+#desc-div{
+}
+#desc-para{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.card{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin: 10px 0px;
+}
+.img-card{
+    width: 100%;
+    max-height: 180px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-title{
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+} */
